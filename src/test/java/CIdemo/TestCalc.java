@@ -10,5 +10,10 @@ public class TestCalc {
 		int result = Calc.add(3,6);
 		assertEquals(result,9);
 	}
+	
+	public void testSub() {
+		int result = Calc.subtract(6,2);
+		assertEquals(result,4);
+	}
 }
     
